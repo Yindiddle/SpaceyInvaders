@@ -69,6 +69,7 @@ public class Spawner : MonoBehaviour
                         case 2: invader = Instantiate(invader2, pos, Quaternion.identity); break;
                         case 3: invader = Instantiate(invader3, pos, Quaternion.identity); break;
                         case 4: invader = Instantiate(invader4, pos, Quaternion.identity); break;
+                    test
                     }
                     */
 
