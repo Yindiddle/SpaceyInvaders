@@ -60,7 +60,7 @@ public class Spawner : MonoBehaviour
 
                     //if(DifficultyScaleManager.difficultyValue = 1)
 
-                    /*
+                    
                     int roll = UnityEngine.Random.Range(1, 5);
 
                     switch (roll)
@@ -69,9 +69,9 @@ public class Spawner : MonoBehaviour
                         case 2: invader = Instantiate(invader2, pos, Quaternion.identity); break;
                         case 3: invader = Instantiate(invader3, pos, Quaternion.identity); break;
                         case 4: invader = Instantiate(invader4, pos, Quaternion.identity); break;
-                    test
+               
                     }
-                    */
+                    
 
                     //Assigns invader as child
                     invader.transform.SetParent(wave.transform);
